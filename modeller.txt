@@ -1,0 +1,23 @@
+PIR format
+
+>P1;XXXX 
+
+XXXX = 단백질 코드 지정 Chain 유무는 필수가 아님
+
+structureX:5fd1:1    :A:106  :A:ferredoxin:Azotobacter vinelandii: 1.90: 0.19
+PDB파일에서 segment 정보를 추출하는 정보 :로 분류되어있음
+
+Field 1
+3D 구조 사용유무 여부 및 구조를 얻는데 사용한 방법
+Field 2
+PDB 파일 이름 및 코드 (io.data.atom_files_directory)에 지정된 디렉토리에서 검색 확장자는 자동으로 pdb 또는 ent 등을 추가하여 modeller가 검색
+Field3-6
+첫번째 잔기, 마지막잔기, chain 식별자 (default는 전체 파일)
+Field 7
+Protein name
+Field 8
+Protein source
+Field 9
+Resolution
+Field 10
+R value
